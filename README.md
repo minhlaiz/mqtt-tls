@@ -16,7 +16,7 @@ run these two commands sub and pub utilizing the ca certificate
 
 
 ```bash
-mosquitto_sub -v -h 192.168.0.105 -p 8883 -t '#' --cafile ca.crt
-mosquitto_pub -h 192.168.0.105 -t test/topic -m "Hello World" --cafile ca.crt
+mosquitto_sub -v -h 127.0.0.1 -p 8883 -t '#' --cafile ca.crt
+mosquitto_pub -h 127.0.0.1 -t test/topic -m "Hello World" --cafile ca.crt
 
 ```
