@@ -3,9 +3,9 @@ Steps to create basic tls config
 1. run generate-keys bash script
 
 ```bash
-    sh generate-keys.sh
+    sh ./keys/generate-keys.sh
 ```
-2. move ca.crt server.crt server.key into ./config/certs
+2. move ca.crt server.crt server.key into ./config/certs (this will be done automatically in sh script)
 
 3. run docker-compose
 
