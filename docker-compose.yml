@@ -3,7 +3,7 @@ version: '3.5'
 services:
   mosquitto:
     container_name: mosquitto_container
-    image: eclipse-mosquitto:1.6.10
+    image: eclipse-mosquitto:2.0
     volumes:
       - ./config:/mosquitto/config/
     ports:
